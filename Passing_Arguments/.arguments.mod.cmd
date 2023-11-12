@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/Passing_Arguments/arguments.mod := { echo  /home/dhwanish/Documents/Character_Device_Driver/Passing_Arguments/arguments.o;  echo; } > /home/dhwanish/Documents/Character_Device_Driver/Passing_Arguments/arguments.mod
