@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/static_allocation.mod := { echo  /home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/static_allocation.o;  echo; } > /home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/static_allocation.mod
