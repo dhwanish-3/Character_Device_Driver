@@ -13,7 +13,7 @@
 #include <linux/fs.h>
 #include <linux/err.h>
 #include <linux/device.h>
- 
+
 dev_t dev = 0;
 static struct class *dev_class;
  
