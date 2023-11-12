@@ -142,7 +142,7 @@ static int __init mymodule_init(void)
 {
     // if the kernel version is not same as the version of compilatio, insmod should fail
     if (kernel_version[0] != '5' || kernel_version[1] != '.' || kernel_version[2] != '1' || kernel_version[3] != '5') {
-    	printk(KERN_ERR "Kernal version is not same as the version of compilation\n");
+    	printk(KERN_ERR "Kernel version is not same as the version of compilation\n");
     	return -1;
     }
 
@@ -180,14 +180,11 @@ static int __init mymodule_init(void)
     } else {
         printk(KERN_ERR "Thread creation failed\n");
     }
-    // printing current time
-    // printk(KERN_INFO "Current time is %ld\n", jiffies_to_clock_t(jiffies));
     start_time = jiffies;
     printk(KERN_INFO "Major = %d Minor = %d\n",MAJOR(dev), MINOR(dev));
     printk(KERN_INFO "value = %d\n", timer);
     printk(KERN_INFO "Kernel Module Inserted Successfully...\n");
     return 0;
-
 r_device:
     class_destroy(mymodule_class);
 r_class:
