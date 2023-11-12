@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/Dynamic_Allocation/dynamic_allocation.mod := { echo  /home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/Dynamic_Allocation/dynamic_allocation.o;  echo; } > /home/dhwanish/Documents/Character_Device_Driver/Major_Minor_Number/Dynamic_Allocation/dynamic_allocation.mod
