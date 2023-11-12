@@ -1,9 +1,9 @@
 /***************************************************************************//**
-*  \file       driver.c
+*  \file       hello_world.c
 *
 *  \details    Simple hello world driver
 *
-*  \author     EmbeTronicX
+*  \author     Dhwanish
 *
 * *******************************************************************************/
 #include<linux/kernel.h>
