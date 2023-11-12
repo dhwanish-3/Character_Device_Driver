@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/Device_File/device_file.mod := { echo  /home/dhwanish/Documents/Character_Device_Driver/Device_File/device_file.o;  echo; } > /home/dhwanish/Documents/Character_Device_Driver/Device_File/device_file.mod

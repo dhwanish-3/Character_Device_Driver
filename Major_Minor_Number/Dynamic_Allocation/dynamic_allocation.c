@@ -1,9 +1,9 @@
 /***************************************************************************//**
-*  \file       driver.c
+*  \file       dynamic_allocation.c
 *
 *  \details    Simple linux driver (Dynamically allocating the Major and Minor number)
 *
-*  \author     EmbeTronicX
+*  \author     Dhwanish
 *
 * *******************************************************************************/
 #include<linux/kernel.h>
@@ -20,7 +20,7 @@ dev_t dev = 0;
 static int __init hello_world_init(void)
 {
         /*Allocating Major number*/
-        if((alloc_chrdev_region(&dev, 0, 1, "Embetronicx_Dev")) <0){
+        if((alloc_chrdev_region(&dev, 0, 1, "Dhwanish")) <0){
                 printk(KERN_INFO "Cannot allocate major number for device 1\n");
                 return -1;
         }
@@ -43,6 +43,6 @@ module_init(hello_world_init);
 module_exit(hello_world_exit);
  
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("EmbeTronicX <embetronicx@gmail.com>");
+MODULE_AUTHOR("Dhwanish <dhwani333sh@gmail.com>");
 MODULE_DESCRIPTION("Simple linux driver (Dynamically allocating the Major and Minor number)");
 MODULE_VERSION("1.1");
