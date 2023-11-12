@@ -15,7 +15,7 @@
 */
 static int __init hello_world_init(void)
 {
-    printk(KERN_INFO "Welcome to EmbeTronicX\n");
+    printk(KERN_INFO "Welcome to The real world of linux\n");
     printk(KERN_INFO "This is the Simple Module\n");
     printk(KERN_INFO "Kernel Module Inserted Successfully...\n");
     return 0;
