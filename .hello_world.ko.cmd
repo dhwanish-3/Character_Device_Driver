@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/dhwanish/Documents/Character_Device_Driver/hello_world.ko /home/dhwanish/Documents/Character_Device_Driver/hello_world.o /home/dhwanish/Documents/Character_Device_Driver/hello_world.mod.o;  true

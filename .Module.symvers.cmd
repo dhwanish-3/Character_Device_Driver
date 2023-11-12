@@ -1,0 +1,1 @@
+cmd_/home/dhwanish/Documents/Character_Device_Driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/dhwanish/Documents/Character_Device_Driver/modules.order | scripts/mod/modpost -m -a  -o /home/dhwanish/Documents/Character_Device_Driver/Module.symvers -e -i Module.symvers   -T -
